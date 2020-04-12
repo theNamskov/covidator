@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(24, 26, 27) !important;
+    color: #c5c0c0;
+}
+
+input, select {
+    background-color: rgb(24, 26, 27) !important;
+    color: #c5c0c0 !important;
+}
+
+a .navbar-brand {
+    font-size: 5em !important;
+    color: #a79d9d !important;
+    margin: 0 auto !important;
+}
+
+.logo {
+    animation: rotation 4s forwards linear;
+}
+
+.logo-text {
+    margin-top: -7em;
+    margin: 0 auto !important;
+    height: 10em;
+    width: 10em;
+}
+
+.jumbotron {
+    background-color: rgb(30, 31, 32) !important;
+}
+
+input {
+    margin-bottom: 1em;
+}
+
+button[type="submit"] {
+    background-color: #8dcaff;
+    color: #707070;
+    margin: 3em auto !important;
+}
+
+button[type="submit"]:hover {
+    background-color: #007BFF;
+}
+
+#loading {
+    display: none;
+}
+
+.loading {
+    margin: 0.2em auto;
+    animation: load-rotation 0.2s infinite linear;
+}
+
+#results {
+    display: none;
+
+}
+
+
+@keyframes rotation {
+    from {
+      transform: rotate(-150deg);
+    }
+    to {
+      transform: rotate(-20deg);
+    }
+  }
+
+  @keyframes load-rotation {
+      from {
+          transform: rotate(-220deg);
+      }
+      to {
+          transform: rotate(-40deg);
+      }
+  }
