@@ -17,8 +17,8 @@
 
     <body>
         <header aria-label="header of page">
-            <nav aria-label="Navbar Area" class="navbar">
-                <a class="navbar-brand">
+            <nav aria-label="Navbar Area" class="navbar navbar-dark">
+                <a class="navbar-brand mx-auto">
                     <img 
                         class="logo" 
                         srcset="static/logo-md.png 1024w, 
@@ -27,7 +27,7 @@
                         alt="logo"
                     />
                     <img 
-                        class="logo-text" 
+                        class="logo-text mx-auto" 
                         srcset="static/covidator-md.png 1024w, 
                                 static/covidator-md.png 640w, 
                                 static/covidator-md.png 320w" 
@@ -40,15 +40,15 @@
         <main aria-label="Main Section" class="container container-md-fluid jumbotron">
             <form aria-label="Form to submit input data for impact of COVID-nineteen estimation">
                 <fieldset>
-                    <legend class="">Data Submission Form</legend>
+                    <legend class="mb-4 text-md-center">Data Submission Form</legend>
                     <div aria-label="Population input field area" class="form-group">
                         <label for="population">Population</label>
-                        <input type="number" name="population" class="form-control" aria-label="Population" data-population required/>
+                        <input type="number" name="population" class="form-control ml-2" aria-label="Population" data-population required/>
                     </div>
                     
                     <div aria-label="Reported Cases input field area" class="form-group">
                         <label for="reportedCases">Reported Cases</label>
-                        <input type="number" name="reportedCases" class="form-control" aria-label="Reported Cases" data-reported-cases required/>
+                        <input type="number" name="reportedCases" class="form-control ml-2" aria-label="Reported Cases" data-reported-cases required/>
                     </div>
                     
 

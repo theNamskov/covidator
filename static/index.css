@@ -1,17 +1,22 @@
 body {
-    background-color: rgb(24, 26, 27) !important;
+    background-color: rgb(255, 255, 255);
     color: #c5c0c0;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+}
+
 input, select {
-    background-color: rgb(24, 26, 27) !important;
-    color: #c5c0c0 !important;
+    background-color: rgb(24, 26, 27);
+    color: #c5c0c0;
 }
 
 a .navbar-brand {
-    font-size: 5em !important;
-    color: #a79d9d !important;
-    margin: 0 auto !important;
+    font-size: 5em;
+    color: #a79d9d;
+    margin: 0 auto;
 }
 
 .logo {
@@ -20,23 +25,71 @@ a .navbar-brand {
 
 .logo-text {
     margin-top: -7em;
-    margin: 0 auto !important;
+    margin: 0 auto;
     height: 10em;
     width: 10em;
 }
 
-.jumbotron {
-    background-color: rgb(30, 31, 32) !important;
+.navbar-brand {
+    display: flex;
+    justify-content: space-evenly;
 }
 
-input {
-    margin-bottom: 1em;
+.logo {
+    width: 10em;
+    min-height: 9em;
 }
+
+.logo-text {
+    margin-left: -1.2em;
+}
+
+.jumbotron {
+    width: 100%;
+    display: block;
+    background-color: rgb(30, 31, 32);
+    margin: 0 auto;
+    border-radius: .5em;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    margin: 2em auto;
+    font-size: 2.2em;
+}
+
+.form-group {
+    display: inline;
+}
+
+
+label {
+    padding: 1em 0.5em;
+    font-size: 1.4em;
+}
+
+input, select {
+    margin: 1em 2em;
+    display: flex;
+
+    border:1px;
+    border-radius: 2px;
+    min-height: 2em;
+    width: inherit;
+}
+
+.estimated-time {
+    margin: 0 auto;
+}
+
 
 button[type="submit"] {
     background-color: #8dcaff;
     color: #707070;
-    margin: 3em auto !important;
+    margin: 3em auto;
 }
 
 button[type="submit"]:hover {
