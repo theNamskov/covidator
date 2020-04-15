@@ -165,5 +165,7 @@ button[type="submit"]:hover {
 
   @font-face {
       src: url('font/Roboto-Regular.ttf');
+      font-style: normal;
       font-family: 'roboto-regular';
+      font-display: swap;
   }
