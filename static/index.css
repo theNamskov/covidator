@@ -1,7 +1,7 @@
 body {
     background-color: rgb(255, 255, 255);
     color: #c5c0c0;
-    font-family: 'roboto-regular';
+    font-family: 'roboto-regular', Arial, Helvetica, sans-serif;
 }
 
 main {
