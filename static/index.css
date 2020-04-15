@@ -119,10 +119,11 @@ input, select {
 button[type="submit"] {
     width: 75%;
     background-color: #8dcaff;
-    color: #707070;
+    color: #272626;
     border: none;
     border-radius: .4em;
     min-height: 3.5em;
+    font-size: 1.2em;
 }
 
 button[type="submit"]:hover {
