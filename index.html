@@ -41,26 +41,25 @@
             <form aria-label="Form to submit input data for impact of COVID-nineteen estimation">
                 <fieldset>
                     <legend class="">Data Submission Form</legend>
-                    <div aria-label="Population input field area" class="form-group">
+                    <div aria-label="Population input field area" class="col-4">
                         <label for="population">Population</label>
-                        <input type="number" name="population" class="form-control" aria-label="Population" data-population required/>
+                        <input type="number" name="population" aria-label="Population" data-population required/>
                     </div>
                     
-                    <div aria-label="Reported Cases input field area" class="form-group">
+                    <div aria-label="Reported Cases input field area" class="col-4">
                         <label for="reportedCases">Reported Cases</label>
-                        <input type="number" name="reportedCases" class="form-control" aria-label="Reported Cases" data-reported-cases required/>
+                        <input type="number" name="reportedCases" aria-label="Reported Cases" data-reported-cases required/>
                     </div>
                     
 
                     <div aria-label="Time to elapse selection area in days, weeks or months" class="estimated-time form-row">
-                        <div aria-label="Numeric input field for time" class="form-group col-7">
+                        <div aria-label="Numeric input field for time" class=" col-3">
                             <label for="time-to-elapse">Time To Elapse</label>
-                            <input type="number" name="time-to-elapse" class="form-control ml-2" aria-label="Time To Elapse" data-time-to-elapse required/>
+                            <input type="number" name="time-to-elapse" aria-label="Time To Elapse" data-time-to-elapse required/>
                         </div>
-                        <div aria-label="gutter" class="col-1"></div>
-                        <span aria-label="Selecting the period type in days, weeks or months" class="form-group col-4">
-                            <label for="period-type">Period Type</label>
-                            <select aria-label="List of period options" name="period-type" validation-message="Select only one option" class="form-control ml-2" data-period-type>
+                        <span aria-label="Selecting the period type in days, weeks or months" class=" col-1">
+                            <label for="period-type">Per. Type</label>
+                            <select aria-label="List of period options" name="period-type" validation-message="Select only one option" data-period-type>
                                 <option value="days" default>days</option>
                                 <option value="weeks">weeks</option>
                                 <option value="months">months</option>
@@ -68,12 +67,12 @@
                         </span>
                     </div>
                     
-                    <div aria-label="Total beds available input area" class="form-group">
+                    <div aria-label="Total beds available input area" class="col-4">
                         <label for="total-hospital-beds">Total Hospital Beds</label>
-                        <input type="number" name="total-hospital-beds" class="form-control ml-2" aria-label="Total Hospital Beds" data-total-hospital-beds required>
+                        <input type="number" name="total-hospital-beds" aria-label="Total Hospital Beds" data-total-hospital-beds required>
                     </div>
 
-                    <button aria-label="For form submission to" type="submit" class="btn my-4 mx-auto btn-lg btn-block col-9" data-go-estimate>Get Estimate</button>
+                    <div class="submit"><button aria-label="For form submission to" type="submit" class="btn" data-go-estimate>Get Estimate</button></div>
                 </fieldset>
 
             </form>
