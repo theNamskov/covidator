@@ -141,8 +141,14 @@ button[type="submit"]:hover {
 }
 
 #results {
-    display: none;
+    display: block;
+    background-color: white;
+    height: 10px;
+    width: 92%;
+}
 
+#results:hover {
+    animation: extrudeY 1s forwards linear;
 }
 
 
@@ -161,6 +167,15 @@ button[type="submit"]:hover {
       }
       to {
           transform: rotate(-40deg);
+      }
+  }
+
+  @keyframes extrudeY {
+      from {
+          transform: scaleY(2);
+      }
+      to {
+          transform: scaleY(20);
       }
   }
 
